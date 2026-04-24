@@ -4,9 +4,9 @@
 To recover and analyze web browsing artifacts, including visited URLs, search queries, cached images, and cookies. This data is essential for understanding user behavior and identifying potential sources of malware or unauthorized data exfiltration.
 
 ## Tools Used
-* **NirSoft BrowsingHistoryView:** To aggregate history from multiple browsers.
-* **ChromeCacheView:** To inspect files stored in the browser's local cache.
-* **DB Browser for SQLite:** To manually query the underlying browser databases.
+* **NirSoft BrowsingHistoryView:** To aggregate history from multiple browsers. (https://www.nirsoft.net/utils/browsing_history_view.html )
+* **ChromeCacheView:** To inspect files stored in the browser's local cache. (https://www.nirsoft.net/utils/chrome_cache_view.html)
+* **DB Browser for SQLite:** To manually query the underlying browser databases. (https://sqlitebrowser.org/)
 
 ## Methodology
 1. **Locating Databases:** Navigated to the user profile path: `\AppData\Local\Google\Chrome\User Data\Default\`.
