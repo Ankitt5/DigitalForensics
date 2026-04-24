@@ -4,9 +4,9 @@
 To analyze email headers to trace the sender's origin and path, and to verify the authenticity and integrity of digitally signed or encrypted messages using PGP (Pretty Good Privacy) tools.
 
 ## Tools Used
-* **Thunderbird:** For viewing raw email source and header analysis.
-* **Gpg4win (Kleopatra):** For PGP key management and signature verification.
-* **MXToolbox (Header Analyzer):** For visualizing the hop-by-hop relay path.
+* **Thunderbird:** For viewing raw email source and header analysis. (https://www.thunderbird.net/)
+* **Gpg4win (Kleopatra):** For PGP key management and signature verification. (https://www.gpg4win.org/)
+* **MXToolbox (Header Analyzer):** For visualizing the hop-by-hop relay path. (https://mxtoolbox.com/EmailHeaders.aspx)
 
 ## Methodology
 1. **Header Extraction:** Exported the raw source of a suspicious email (`.eml` format) to inspect the `Received` fields.
