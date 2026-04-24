@@ -4,8 +4,8 @@
 To reconstruct a chronological narrative of system events by aggregating metadata from various sources (MFT, Registry, Event Logs). This helps identify the exact moment of compromise or unauthorized user activity.
 
 ## Tools Used
-* **Plaso (log2timeline):** To extract and aggregate timestamps.
-* **Autopsy Timeline Tool:** For visual analysis of event clusters.
+* **Plaso (log2timeline):** To extract and aggregate timestamps. (https://github.com/log2timeline/plaso)
+* **Autopsy Timeline Tool:** For visual analysis of event clusters. (https://www.autopsy.com/)
 
 ## Methodology
 1. **Extraction:** Ran `log2timeline.py` against the disk image created in Experiment 01.
